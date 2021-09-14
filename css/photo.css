@@ -1,0 +1,393 @@
+body {
+  width: 900px;
+  height: 1000px;
+}
+header {
+  font-family: "arial black", sans-serif;
+  color: rgb(238, 146, 161);
+  line-height: 32px;
+  background-color: skyblue;
+  display: flex;
+}
+
+header img {
+  width: 24px;
+  height: 24px;
+  margin: auto 0 auto 10px;
+  border-radius: 5px;
+  /* border-radius: 50%; */
+}
+
+header .header-title {
+  padding-left: 5px;
+}
+
+main ul {
+  list-style: none;
+}
+
+main ul li {
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+a {
+  position: relative;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  /* top: 50px; */
+  left: 400px;
+  display: inline-block;
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+}
+
+.photo1:hover:after {
+  background: url(photos/2018.10.28.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo2:hover:after {
+  background: url(photos/2018.11.23.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo3:hover:after {
+  background: url(photos/2018.11.26.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo4:hover:after {
+  background: url(photos/2018.11.27-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo5:hover:after {
+  background: url(photos/2018.11.27-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo6:hover:after {
+  background: url(photos/2018.12.1-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo7:hover:after {
+  background: url(photos/2018.12.1-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo8:hover:after {
+  background: url(photos/2018.12.9.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo9:hover:after {
+  background: url(photos/2018.12.22.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photo10:hover:after {
+  background: url(photos/2019.1.17-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo11:hover:after {
+  background: url(photos/2019.1.17-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo12:hover:after {
+  background: url(photos/2019.1.31.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo13:hover:after {
+  background: url(photos/2019.2.10.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo14:hover:after {
+  background: url(photos/2019.4.6-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo15:hover:after {
+  background: url(photos/2019.4.6-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo16:hover:after {
+  background: url(photos/2019.4.7-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo17:hover:after {
+  background: url(photos/2019.4.7-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo18:hover:after {
+  background: url(photos/2019.4.7-3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo19:hover:after {
+  background: url(photos/2019.4.7-4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo20:hover:after {
+  background: url(photos/2019.4.14.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo21:hover:after {
+  background: url(photos/2019.9.29.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo22:hover:after {
+  background: url(photos/2019.10.5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo23:hover:after {
+  background: url(photos/2019.11.22.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo24:hover:after {
+  background: url(photos/2019.11.30.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo25:hover:after {
+  background: url(photos/2019.12.14.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo26:hover:after {
+  background: url(photos/2019.12.31.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo27:hover:after {
+  background: url(photos/2020.4.5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo28:hover:after {
+  background: url(photos/2020.4.29.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo29:hover:after {
+  background: url(photos/2020.5.18.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo30:hover:after {
+  background: url(photos/2020.6.7-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo31:hover:after {
+  background: url(photos/2020.6.7-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo32:hover:after {
+  background: url(photos/2020.8.16.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo33:hover:after {
+  background: url(photos/2020.12.24.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo34:hover:after {
+  background: url(photos/2020.12.25.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo35:hover:after {
+  background: url(photos/2020.12.30.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo36:hover:after {
+  background: url(photos/2021.4.10.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo37:hover:after {
+  background: url(photos/2021.4.15.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo38:hover:after {
+  background: url(photos/2021.4.24.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo39:hover:after {
+  background: url(photos/2021.5.1-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo40:hover:after {
+  background: url(photos/2021.5.1-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo41:hover:after {
+  background: url(photos/2021.5.5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo42:hover:after {
+  background: url(photos/2021.5.16.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo43:hover:after {
+  background: url(photos/2021.5.22.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo44:hover:after {
+  background: url(photos/2021.6.12.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo45:hover:after {
+  background: url(photos/2021.6.26.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo46:hover:after {
+  background: url(photos/2021.7.1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo47:hover:after {
+  background: url(photos/2021.7.24.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.photo48:hover:after {
+  background: url(photos/2021.7.30.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  text-align: center;
+  font-size: 32px;
+}
+
+footer {
+  color: lightgray;
+  text-align: center;
+}
