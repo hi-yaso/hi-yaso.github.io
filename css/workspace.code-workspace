@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "sousukepage",
+			"path": ".."
+		},
+		{
+			"name": "img2020",
+			"path": "../../Photo Gallery2020/img2020"
+		},
+		{
+			"name": "img2019",
+			"path": "../../Photo Gallery2019/img2019"
+		}
+	],
+	"settings": {}
+}
